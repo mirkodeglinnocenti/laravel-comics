@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $data = [
-        'page-title' => "Home",
+        'page_title' => "Home",
         'array_comics' => [
             [
                 "title" => "Action Comics #1000: The Deluxe Edition",
