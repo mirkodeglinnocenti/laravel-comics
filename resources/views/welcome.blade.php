@@ -10,11 +10,10 @@
         </h2>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="comics-grid">
            <!-- @dump($array_comics) -->
            @foreach ($array_comics as $comic)
-
-                <div class="col-4">
+                <div class="">
                     <img src="{{ $comic['thumb'] }}" alt="">
                     <h3>{{ $comic['title'] }}</h3>
                 </div>

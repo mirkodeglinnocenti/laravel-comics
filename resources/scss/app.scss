@@ -1,1 +1,6 @@
 @import '~bootstrap/scss/bootstrap';
+
+.comics-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
